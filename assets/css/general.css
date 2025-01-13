@@ -1,0 +1,58 @@
+
+:root {
+    --black: #121212;
+    --white: #ffffff;
+    --gray: #444;
+    --black2: #1e1e1e;
+    --red:#ff5722;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+}
+
+main {
+    flex: 1 1 auto;
+
+}
+
+.text-wrap {
+    display: block;
+}
+
+.desktop-text-wrap {
+    display: block;
+}
+
+.download-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: var(--red);
+    color: var(--white);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: .3s;
+}
+
+.download-btn:hover::before {
+    left: 0;
+}
+
+.download-btn:hover {
+    color: var(--red);
+    background: var(--white);
+
+}
+
